@@ -1,0 +1,21 @@
+
+
+.Game{
+    width: 325px;
+    height: auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(43, 47, 53, 100%); */
+    border-radius: 1.25rem;
+    transition: transform 0.2s;
+    margin: 2rem;
+}
+
+.GameImage{
+    max-width:  325px;
+    height: 325px;
+    object-fit: cover;
+    border-radius: 1.25rem;
+}
